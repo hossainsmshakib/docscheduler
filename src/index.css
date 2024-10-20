@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap");
+@import "react-big-calendar/lib/css/react-big-calendar.css";
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.rbc-calendar {
+  font-family: 'Inter', sans-serif;
+}
+
+.rbc-header {
+  background-color: #f3f4f6;
+  font-weight: 600;
+  padding: 8px;
+}
+
+.rbc-month-view {
+  border: none;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.rbc-day-bg {
+  transition: background-color 0.3s ease;
+}
+
+.rbc-day-bg:hover {
+  background-color: #f3f4f6;
+}
+
+.rbc-today {
+  background-color: #ebf5ff;
+}
+
+.rbc-event {
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.rbc-toolbar button {
+  color: #4b5563;
+  border: 1px solid #e5e7eb;
+  transition: all 0.3s ease;
+}
+
+.rbc-toolbar button:hover,
+.rbc-toolbar button:active,
+.rbc-toolbar button.rbc-active {
+  background-color: #3b82f6;
+  color: white;
+  border-color: #3b82f6;
+}
+
+.rbc-toolbar-label {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #1f2937;
+}
+
+@media (max-width: 640px) {
+  .rbc-calendar {
+    font-size: 0.875rem;
+  }
+
+  .rbc-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .rbc-toolbar-label {
+    margin: 0.5rem 0;
+  }
+}
