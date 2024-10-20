@@ -9,25 +9,6 @@ A React-based Doctor Appointment Calendar application that displays a monthly vi
 ![alt text](image-2.png)
 ![alt text](image-3.png)
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [State Management (Redux)](#state-management-redux)
-- [Data Persistence](#data-persistence)
-- [Components Overview](#components-overview)
-  - [App Component](#app-component)
-  - [Header Component](#header-component)
-  - [Calendar Component](#calendar-component)
-  - [Appointment Modal Component](#appointment-modal-component)
-  - [Create Appointment Modal Component](#create-appointment-modal-component)
-- [Routing](#routing)
-- [Form Handling](#form-handling)
-- [License](#license)
-
 ## Introduction
 
 The Doctor Appointment Calendar is a simple appointment scheduling app where users can view appointments in a monthly calendar layout, create new appointments, and view details of existing ones. The data is persisted using local storage, ensuring the state is saved across page reloads.
@@ -47,9 +28,10 @@ The Doctor Appointment Calendar is a simple appointment scheduling app where use
 - **React Router**: For navigation and dynamic routing.
 - **Redux**: For managing global state.
 - **React Hook Form**: For managing form inputs and validation.
-- **Local Storage**: For persisting appointment data.
-- **CSS Grid**: For building the calendar layout.
-- **JavaScript ES6**: For modern JavaScript features.
+- **JSON server**: For persisting appointment data.
+- **Tailwind CSS**: For building the layout.
+- **TypeScript ES6**: For modern TypeScript features.
+- **React Calender**: For calender.
 
 ## Installation
 
